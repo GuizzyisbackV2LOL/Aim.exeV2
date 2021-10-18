@@ -81,15 +81,7 @@ ALTab:AddSlider("FOV Size", function(value)
     Aiming.FOV = value
 end, {
     ["min"] = 0,
-    ["max"] = 400,
-    ["readonly"] = false,
-})
-
-ALTab:AddSlider("Prediction", function(value)
-    DaHoodSettings.Prediction = tonumer("0." .. value)
-end, {
-    ["min"] = 0,
-    ["max"] = 500,
+    ["max"] = 200,
     ["readonly"] = false,
 })
 
